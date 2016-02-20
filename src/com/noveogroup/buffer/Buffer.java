@@ -1,7 +1,9 @@
 package com.noveogroup.buffer;
 
-/**
- * Data buffer.
- */
+
+import com.noveogroup.data.Data;
+
 public interface Buffer {
+    void putData(Data data);
+    Data getData();
 }
